@@ -7,11 +7,17 @@
     display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 65vh;
 	font-family: sans-serif;
 }
+h2{
+	padding: 20px;
+	
+	
+}
 form {
-	width: 300px;
+	
+	width: 500px;
 	padding: 40px;
 	box-sizing: border-box;
 	border-radius: 3px;
@@ -27,13 +33,13 @@ input {
 	border: 1px solid #bbb;
 	border-radius: 3px;
 }
-p {
+/*p {
 	display: none;
 	font-size: 12px;
 	margin: 0;
 	
 	color: #666;
-}
+}*/
 input:focus + p {
 	display: block;
 }
@@ -44,7 +50,7 @@ input[type="submit"] {
 	color: #fff;
 	display: none;
 }
-input[type="submit"]:disabled {
+input[type="submit"] {
 	background-color: #F44336;
 	display: block;
 	

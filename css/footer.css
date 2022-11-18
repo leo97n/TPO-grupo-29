@@ -1,8 +1,14 @@
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
+   
+    margin-top: 20px;
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto
+    
 }
 .pie-pagina .grupo-1{
+    
     width: 100%;
     max-width: 1200px;
     margin: auto;
